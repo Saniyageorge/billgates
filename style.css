@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather", serif;
+}
+
+nav{
+    background-color: grey;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-shadow: 2px 3px 4px whitesmoke;
+    text-decoration: underline;
+}
+.topnav{
+    font-size: 20px;
+    margin-right: 20%;
+    
+    
+}
+.topnav input{
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+#home{
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+}
+#home::before{
+    content:"" ;
+
+}
+.main{
+    background-image: url(https://media.vanityfair.com/photos/63a476b8e2316363134d3833/master/w_2560%2Cc_limit/946971500);
+width: 100%;
+height: 900PX;
+background-size: cover;
+}
+.overlay{
+    position: absolute;
+    top: 90%;
+    left: 75%;
+}
+ h3{
+    color: black;
+    background-color: gray;
+    text-align: center;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 500px;
+    border-radius: 60px;
+}
+.pic h4{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+
+
+.row{
+    display: flex;
+    margin-top: 5px;
+}
+
+.box{
+    width: 400px;
+    height: 880px;
+    border: 3px ridge gray;
+    margin: 10px;
+    align-items: center;
+    background: linear-gradient(rgb(140, 139, 139)50%, rgb(248, 246, 246));
+    background-size: 100% 200%;
+    transition: all 1.0s;
+}
+.box:hover{
+    background-position: right bottom;
+    filter: drop-shadow(3px 4px 20px rgb(146, 143, 143));
+}
+.box img{
+    width: 350px;
+    padding: 12px;
+}
+
+.box p{
+    text-align: justify;
+    padding: 5px;
+}
+
+.box h5{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 4px  black;
+}
+
+.gallery{
+    box-shadow: 2px 4px 6px black;
+    margin: 20px;
+}
+
+.gallery img{
+    width: 400px;
+    margin: 5px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+.galleryimg:hover{
+    scale: 1.05;
+}
+
+
+form{
+    padding: 20px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+button{
+    color: white;
+    background-color: black;
+cursor: pointer;
+padding: 10px;
+}
+
+.fllw{
+    background-color: lightgray;
+    text-align: center;
+}
+
+.fllw h2{
+    color: rgb(249, 246, 246);
+    font-size: 30px;
+    
+}
+
+.fllw h4{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+  }
+  
